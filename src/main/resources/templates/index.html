@@ -12,7 +12,7 @@
     <div class="row">
       <div class="col-md-6 offset-md-3">
         <br/>
-        <h1 class="text-center">Get Your Local Forecast</h1>
+        <h1 class="text-center">Get Your Local Weather Conditions</h1>
         <form th:action="@{/}" th:object="${request}" method="post" autocomplete="off" >
           <div class="form-group">
             <input type="text" th:field="*{zipCode}" placeholder="Zip Code" 
@@ -28,7 +28,7 @@
         </span>
         <hr>
         <div th:if="${data != null && data.name != 'error'}">
-          <h3>Forecast for <span th:text="${data.name}"></span></h3>
+          <h3>Weather Conditions for <span th:text="${data.name}"></span></h3>
           <p><b>Temperature:</b> <span th:text="${data.main.get('temp')}"></span>°F</p>
           <p><b>Humidity:</b> <span th:text="${data.main.get('humidity')}"></span> %</p>
           <p><b>Feels Like:</b> <span th:text="${data.main.get('feels_like')}"></span>°F</p>
