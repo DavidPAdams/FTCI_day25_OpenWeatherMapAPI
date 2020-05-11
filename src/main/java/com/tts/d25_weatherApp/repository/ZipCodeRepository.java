@@ -11,4 +11,5 @@ import com.tts.d25_weatherApp.model.Zips;
 public interface ZipCodeRepository
     extends CrudRepository<Zips, Long> {
   List<Zips> findAll();
+  List<Zips> findAllByOrderByCreatedAtDesc();
 }
