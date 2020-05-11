@@ -18,12 +18,14 @@ public class WeatherController {
   @GetMapping
   public String getIndex(Model model) {
     model.addAttribute("request", new Request());
+    model.addAttribute("zips", weatherService.getLastTenZips());
     return "index";
   }
   
   @PostMapping
   public String postIndex(Request request, Model model) {
     Response response = weatherService.getForcast(request.getZipCode());
+    model.addAttribute("zips", weatherService.getLastTenZips());
     model.addAttribute("data", response);
     return "index";
   }
