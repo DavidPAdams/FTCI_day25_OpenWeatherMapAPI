@@ -42,6 +42,13 @@
           </p>
         </div>
       </div>
+      <div class="col-md-3">
+        <br/>
+        <h3>Recent Searches:</h3>
+        <ul th:each="zip : ${zips}">
+          <li th:text="${zip.zipCode}"></li>
+        </ul>
+      </div>
     </div>
   </div>
 
