@@ -1,4 +1,4 @@
-package com.tts.d25_weatherApp.request;
+package com.dav.d25_weatherApp.request;
 
 public class Request {
   private String zipCode;

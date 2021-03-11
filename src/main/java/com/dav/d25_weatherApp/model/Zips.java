@@ -1,4 +1,4 @@
-package com.tts.d25_weatherApp.model;
+package com.dav.d25_weatherApp.model;
 
 import java.util.Date;
 

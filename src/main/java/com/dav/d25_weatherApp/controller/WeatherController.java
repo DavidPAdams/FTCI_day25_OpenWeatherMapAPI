@@ -1,4 +1,4 @@
-package com.tts.d25_weatherApp.controller;
+package com.dav.d25_weatherApp.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -6,9 +6,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.tts.d25_weatherApp.request.Request;
-import com.tts.d25_weatherApp.response.Response;
-import com.tts.d25_weatherApp.service.WeatherService;
+import com.dav.d25_weatherApp.request.Request;
+import com.dav.d25_weatherApp.response.Response;
+import com.dav.d25_weatherApp.service.WeatherService;
 
 @Controller
 public class WeatherController {

@@ -1,4 +1,4 @@
-package com.tts.d25_weatherApp.service;
+package com.dav.d25_weatherApp.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,9 +9,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 
-import com.tts.d25_weatherApp.model.Zips;
-import com.tts.d25_weatherApp.repository.ZipCodeRepository;
-import com.tts.d25_weatherApp.response.Response;
+import com.dav.d25_weatherApp.model.Zips;
+import com.dav.d25_weatherApp.repository.ZipCodeRepository;
+import com.dav.d25_weatherApp.response.Response;
 
 @Service
 public class WeatherService {

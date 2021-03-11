@@ -1,4 +1,4 @@
-package com.tts.d25_weatherApp.response;
+package com.dav.d25_weatherApp.response;
 
 import java.util.List;
 import java.util.Map;
