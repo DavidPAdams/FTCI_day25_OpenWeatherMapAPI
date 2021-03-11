@@ -1,4 +1,4 @@
-package com.dav.d25_weatherApp;
+package com.dav.openWeatherApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

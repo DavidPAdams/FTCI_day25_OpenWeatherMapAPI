@@ -1,4 +1,4 @@
-package com.dav.d25_weatherApp.model;
+package com.dav.openWeatherApp.model;
 
 import java.util.Date;
 
